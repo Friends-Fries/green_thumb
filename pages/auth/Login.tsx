@@ -5,16 +5,17 @@ import React from "react";
 import Divider from "@mui/material/Divider";
 import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
-import Input from "@mui/material/Input";
-import FilledInput from "@mui/material/FilledInput";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputLabel from "@mui/material/InputLabel";
 import InputAdornment from "@mui/material/InputAdornment";
-import FormHelperText from "@mui/material/FormHelperText";
 import FormControl from "@mui/material/FormControl";
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormLabel from '@mui/material/FormLabel';
+import FormGroup from '@mui/material/FormGroup';
 import TextField from "@mui/material/TextField";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
+import Checkbox from '@mui/material/Checkbox';
 
 // Images
 import Logo from "../../src/assets/Logo.png";
@@ -50,7 +51,7 @@ function Login() {
             <div className="bg-white rounded-md w-8/12 p-8">
               <div className="flex flex-col items-center">
                 <img src={Logo} className="mx-auto mb-4" alt="Logo" />
-                <Divider variant="middle" />
+                <Divider variant="middle" className="w-full mb-4"/>
                 <div className="w-full mt-7">
                   <div className="mb-4">
                     <TextField
@@ -87,6 +88,16 @@ function Login() {
                         label="Senha"
                       />
                     </FormControl>
+                  </div>
+                  <div>
+                  <FormControlLabel
+                    value="keep-logged"
+                    control={<Checkbox />}
+                    label="Mantenha-me conectado"
+                    labelPlacement="end"
+                    color="success"
+                    sx={{ color: "#409845" }}
+                  />
                   </div>
                 </div>
               </div>
