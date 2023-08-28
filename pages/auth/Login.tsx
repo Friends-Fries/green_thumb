@@ -10,12 +10,11 @@ import InputLabel from "@mui/material/InputLabel";
 import InputAdornment from "@mui/material/InputAdornment";
 import FormControl from "@mui/material/FormControl";
 import FormControlLabel from '@mui/material/FormControlLabel';
-import FormLabel from '@mui/material/FormLabel';
-import FormGroup from '@mui/material/FormGroup';
 import TextField from "@mui/material/TextField";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import Checkbox from '@mui/material/Checkbox';
+import Button from '@mui/material/Button';
 
 // Images
 import Logo from "../../src/assets/Logo.png";
@@ -40,6 +39,39 @@ function Login() {
       secondary: {
         main: "#225123",
       },
+    },
+  });
+
+  const MainBtn = styled(Button)({
+    marginTop: 15,
+    width: '100%',
+    textTransform: 'none',
+    fontSize: 20,
+    padding: '12px 80px',
+    lineHeight: 1.5,
+    backgroundColor: '#225123',
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+    '&:hover': {
+      backgroundColor: '#1D481E',
+      boxShadow: 'none',
+    },
+    '&:active': {
+      boxShadow: 'none',
+      backgroundColor: '#1D481E',
+    },
+    '&:focus': {
+      boxShadow: '0 0 0 0.2rem #409845',
     },
   });
 
@@ -99,6 +131,7 @@ function Login() {
                     sx={{ color: "#409845" }}
                   />
                   </div>
+                  <MainBtn color="secondary" size="large" variant="contained">Entrar</MainBtn>
                 </div>
               </div>
             </div>
