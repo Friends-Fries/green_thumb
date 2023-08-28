@@ -1,9 +1,26 @@
-function App() {
+// React
+import React from 'react';
 
+// Router
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// Pages
+import Login from '../pages/auth/Login';
+import SignUp from '../pages/auth/SignUp';
+import Landing from '../pages/Landing';
+
+function App() {
   return (
-    <div className="w-screen h-screen bg-green-300">
-      
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<SignUp />} />
+        </Routes>
+      </Router>
+    </>
+  
   )
 }
 
