@@ -43,25 +43,14 @@ function Login() {
   });
 
   const MainBtn = styled(Button)({
-    marginTop: 15,
+    margin: '15px 0',
     width: '100%',
     textTransform: 'none',
     fontSize: 20,
     padding: '12px 80px',
     lineHeight: 1.5,
     backgroundColor: '#225123',
-    fontFamily: [
-      '-apple-system',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      '"Helvetica Neue"',
-      'Arial',
-      'sans-serif',
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
-    ].join(','),
+    fontWeight: '600',
     '&:hover': {
       backgroundColor: '#1D481E',
       boxShadow: 'none',
@@ -122,18 +111,25 @@ function Login() {
                     </FormControl>
                   </div>
                   <div>
-                  <FormControlLabel
-                    value="keep-logged"
-                    control={<Checkbox />}
-                    label="Mantenha-me conectado"
-                    labelPlacement="end"
-                    color="success"
-                    sx={{ color: "#409845" }}
-                  />
+                    <FormControlLabel
+                      value="keep-logged"
+                      control={<Checkbox />}
+                      label="Mantenha-me conectado"
+                      labelPlacement="end"
+                      color="success"
+                      sx={{ color: "#3B8E3D" }}
+                    />
                   </div>
                   <MainBtn color="secondary" size="large" variant="contained">Entrar</MainBtn>
+                  <div className="my-5 text-center font-semibold text-gt-main-green-600 no-underline">
+                        <a><p>Esqueceu a senha?</p></a>
+                  </div>
                 </div>
+                <Divider variant="middle" className="w-full"/>
               </div>
+              <div className="my-5 text-center text-gt-main-green-600 no-underline">
+                        <a><p>Ainda não possui cadastro? <strong>Criar Conta</strong></p></a>
+                  </div>
             </div>
           </section>
           <section>
