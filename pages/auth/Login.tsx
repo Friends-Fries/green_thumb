@@ -1,5 +1,8 @@
 // React
-import React from "react";
+import React, { useState, useEffect } from "react";
+
+// Axios
+import axios from "axios";
 
 // Material UI Components
 import Divider from "@mui/material/Divider";
@@ -21,6 +24,7 @@ import Logo from "../../src/assets/Logo.png";
 import PlantBG from "../../src/assets/PlantBG.png";
 
 function Login() {
+  // Showing/Hiding password
   const [showPassword, setShowPassword] = React.useState(false);
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
@@ -31,6 +35,7 @@ function Login() {
     event.preventDefault();
   };
 
+  // Theme for MaterialUI colors
   const theme = createTheme({
     palette: {
       primary: {
@@ -42,6 +47,7 @@ function Login() {
     },
   });
 
+  // Styling for CTA Button
   const MainBtn = styled(Button)({
     margin: "15px 0",
     width: "100%",
@@ -63,6 +69,28 @@ function Login() {
       boxShadow: "0 0 0 0.2rem #409845",
     },
   });
+
+  const handleUserLogin = async () => {
+    try {
+      axios
+        .post(
+          "http://localhost:3001/login",
+          {
+            "user": {
+              "email": "plot_manager@test.com",
+              "password": "123123"
+            }
+          },
+          
+        )
+        .then((response) => {
+          console.log(response)
+          
+        });
+    } catch (e) {
+      console.log("Error")
+    }
+  };
 
   return (
     <ThemeProvider theme={theme}>
@@ -120,19 +148,19 @@ function Login() {
                       sx={{ color: "#3B8E3D" }}
                     />
                   </div>
-                  <MainBtn color="secondary" size="large" variant="contained">
+                  <MainBtn onClick={handleUserLogin} color="secondary" size="large" variant="contained">
                     Entrar
                   </MainBtn>
                   <div className="my-5 text-center font-semibold text-gt-main-green-600 no-underline">
-                    <a>
+                    <a href="/" className="hover:underline">
                       <p>Esqueceu a senha?</p>
                     </a>
                   </div>
                 </div>
                 <Divider variant="middle" className="w-full" />
               </div>
-              <div className="my-5 text-center text-gt-main-green-600 no-underline">
-                <a>
+              <div className="my-5 text-center text-gt-main-green-600 ">
+                <a href="./signup" className="hover:underline">
                   <p>
                     Ainda não possui cadastro? <strong>Criar Conta</strong>
                   </p>
@@ -141,7 +169,11 @@ function Login() {
             </div>
           </section>
           <section className="hidden lg:block">
-            <img src={PlantBG} className="lg:h-screen lg:w-full" alt="Background" />
+            <img
+              src={PlantBG}
+              className="lg:h-screen lg:w-full"
+              alt="Background"
+            />
           </section>
         </div>
       </body>
