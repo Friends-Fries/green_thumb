@@ -77,7 +77,7 @@ function Login() {
                   <div className="mb-4">
                     <TextField
                       id="outlined-basic"
-                      label="Nome de Usuário"
+                      label="Nome de Usuário ou Email"
                       variant="outlined"
                       className="w-full"
                     />
@@ -124,7 +124,7 @@ function Login() {
                     Entrar
                   </MainBtn>
                   <div className="my-5 text-center font-semibold text-gt-main-green-600 no-underline">
-                    <a>
+                    <a  className="hover:underline">
                       <p>Esqueceu a senha?</p>
                     </a>
                   </div>
@@ -132,7 +132,7 @@ function Login() {
                 <Divider variant="middle" className="w-full" />
               </div>
               <div className="my-5 text-center text-gt-main-green-600 no-underline">
-                <a>
+                <a href="/signup" className="hover:underline">
                   <p>
                     Ainda não possui cadastro? <strong>Criar Conta</strong>
                   </p>
