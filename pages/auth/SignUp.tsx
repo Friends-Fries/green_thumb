@@ -142,7 +142,7 @@ function SignUp() {
                             </IconButton>
                           </InputAdornment>
                         }
-                        label="Senha"
+                        label="Confirmar Senha"
                       />
                     </FormControl>
                   </div>
