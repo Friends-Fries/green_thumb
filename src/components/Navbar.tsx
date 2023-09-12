@@ -32,7 +32,7 @@ function Navbar() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="/home"
+                    href="/"
                     className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
                   >
                     <div className="flex flex-row items-center gap-2">
@@ -40,32 +40,13 @@ function Navbar() {
                       Home
                     </div>
                   </a>
-
                   <a
-                    href="/games"
+                    href="/dashboard"
                     className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
                   >
                     <div className="flex flex-row items-center gap-2">
-                      {/* <IoGameController size={"1.2em"} /> */}
-                      Jogos
-                    </div>
-                  </a>
-                  <a
-                    href="/shows"
-                    className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
-                  >
-                    <div className="flex flex-row items-center gap-2">
-                      {/* <HiFilm size={"1.2em"} /> */}
-                      Séries
-                    </div>
-                  </a>
-                  <a
-                    href="/store"
-                    className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
-                  >
-                    <div className="flex flex-row items-center gap-2">
-                      {/* <HiShoppingBag size={"1.2em"} /> */}
-                      Loja
+                      {/* <HiInformationCircle size={"1.2em"} /> */}
+                      Minha Horta
                     </div>
                   </a>
 
@@ -76,6 +57,16 @@ function Navbar() {
                     <div className="flex flex-row items-center gap-2">
                       {/* <HiInformationCircle size={"1.2em"} /> */}
                       Sobre Nós
+                    </div>
+                  </a>
+
+                  <a
+                    href="/login"
+                    className=" bg-gt-main-green-700 text-white hover:bg-gt-main-green-500 px-5 py-2 rounded-md text-lg font-medium"
+                  >
+                    <div className="flex flex-row items-center gap-2">
+                      {/* <HiInformationCircle size={"1.2em"} /> */}
+                      Entrar
                     </div>
                   </a>
                 </div>
@@ -149,34 +140,13 @@ function Navbar() {
                     Home
                   </div>
                 </a>
-
                 <a
-                  href="/shows"
+                  href="/dashboard"
                   className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   <div className="flex flex-row items-center gap-2">
-                    {/* <HiFilm size={"1.2em"} /> */}
-                    Séries
-                  </div>
-                </a>
-
-                <a
-                  href="/games"
-                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  <div className="flex flex-row items-center gap-2">
-                    {/* <IoGameController size={"1.2em"} /> */}
-                    Jogos
-                  </div>
-                </a>
-
-                <a
-                  href="/store"
-                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  <div className="flex flex-row items-center gap-2">
-                    {/* <HiShoppingBag size={"1.2em"} /> */}
-                    Loja
+                    {/* <HiInformationCircle size={"1.2em"} /> */}
+                    Minha Horta
                   </div>
                 </a>
 
@@ -189,6 +159,16 @@ function Navbar() {
                     Sobre Nós
                   </div>
                 </a>
+                <a
+                  href="/login"
+                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  <div className="flex flex-row items-center gap-2">
+                    {/* <HiInformationCircle size={"1.2em"} /> */}
+                    Entrar
+                  </div>
+                </a>
+                
               </div>
             </div>
           )}

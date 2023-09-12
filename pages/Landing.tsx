@@ -9,7 +9,7 @@ function Landing() {
     return (
       <>
       <Navbar />
-      <section className="h-[90vh]">
+      <section className="h-[90vh] bg-gray-50">
         <div>
           
         </div>
