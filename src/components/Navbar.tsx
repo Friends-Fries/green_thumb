@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 
 // Images
-// import Logo from "../assets/ale-logo.png";
+import Logo from "../assets/favicon-gt.svg";
 
 // Icons
 // import { IoGameController } from "react-icons/io5";
@@ -18,22 +18,22 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-blue-900 border-b-2 border-blue-700 sticky top-0 z-50">
+      <nav className="bg-white-900 border-b-2 border-gt-main-green-50 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                {/* <img
-                  className="h-10 w-10 rounded-full border-2 border-solid border-white "
+                <img
+                  className="h-16 w-16 p-2"
                   src={Logo}
                   alt="Logo"
-                /> */}
+                />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="/home"
-                    className=" hover:bg-blue-700 text-gray-300 px-5 py-2 rounded-md text-lg font-medium"
+                    className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
                   >
                     <div className="flex flex-row items-center gap-2">
                       {/* <HiHome size={"1.2em"} /> */}
@@ -43,7 +43,7 @@ function Navbar() {
 
                   <a
                     href="/games"
-                    className="text-gray-300 hover:bg-blue-700 hover:text-white px-5 py-2 rounded-md text-lg font-medium"
+                    className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
                   >
                     <div className="flex flex-row items-center gap-2">
                       {/* <IoGameController size={"1.2em"} /> */}
@@ -52,7 +52,7 @@ function Navbar() {
                   </a>
                   <a
                     href="/shows"
-                    className="text-gray-300 hover:bg-blue-700 hover:text-white px-5 py-2 rounded-md text-lg font-medium"
+                    className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
                   >
                     <div className="flex flex-row items-center gap-2">
                       {/* <HiFilm size={"1.2em"} /> */}
@@ -61,7 +61,7 @@ function Navbar() {
                   </a>
                   <a
                     href="/store"
-                    className="text-gray-300 hover:bg-blue-700 hover:text-white px-5 py-2 rounded-md text-lg font-medium"
+                    className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
                   >
                     <div className="flex flex-row items-center gap-2">
                       {/* <HiShoppingBag size={"1.2em"} /> */}
@@ -71,7 +71,7 @@ function Navbar() {
 
                   <a
                     href="/about"
-                    className="text-gray-300 hover:bg-blue-700 hover:text-white px-5 py-2 rounded-md text-lg font-medium"
+                    className=" hover:bg-gt-main-green-50 hover:text-gt-main-green-800 text-gt-main-green-700 px-5 py-2 rounded-md text-lg font-medium"
                   >
                     <div className="flex flex-row items-center gap-2">
                       {/* <HiInformationCircle size={"1.2em"} /> */}
@@ -85,7 +85,7 @@ function Navbar() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-blue-700 inline-flex items-center justify-center p-2 rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-gt-main-green-700 inline-flex items-center justify-center p-2 rounded-md text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -142,7 +142,7 @@ function Navbar() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="/home"
-                  className="text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   <div className="flex flex-row items-center gap-2">
                     {/* <HiHome size={"1.2em"} /> */}
@@ -152,7 +152,7 @@ function Navbar() {
 
                 <a
                   href="/shows"
-                  className="text-gray-300 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   <div className="flex flex-row items-center gap-2">
                     {/* <HiFilm size={"1.2em"} /> */}
@@ -162,7 +162,7 @@ function Navbar() {
 
                 <a
                   href="/games"
-                  className="text-gray-300 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   <div className="flex flex-row items-center gap-2">
                     {/* <IoGameController size={"1.2em"} /> */}
@@ -172,7 +172,7 @@ function Navbar() {
 
                 <a
                   href="/store"
-                  className="text-gray-300 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   <div className="flex flex-row items-center gap-2">
                     {/* <HiShoppingBag size={"1.2em"} /> */}
@@ -182,7 +182,7 @@ function Navbar() {
 
                 <a
                   href="/about"
-                  className="text-gray-300 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gt-main-green-800 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   <div className="flex flex-row items-center gap-2">
                     {/* <HiInformationCircle size={"1.2em"} /> */}
