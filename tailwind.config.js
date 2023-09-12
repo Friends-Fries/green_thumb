@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './pages/**/*.tsx',
-    './components/**/*.tsx',
+    './src/components/**/*.tsx',
   ],
   theme: {
     fontSize: {
