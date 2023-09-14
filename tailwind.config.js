@@ -23,6 +23,10 @@ module.exports = {
       "10xl": "8rem",
     },
 
+    fontFamily: {
+      'gabriela': ['Gabriela', 'serif'],
+    },
+
     flex: {
       0: "0 0 auto",
     },
