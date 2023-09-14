@@ -18,7 +18,7 @@ function Landing() {
               Mussum Ipsum, <br />
               <span className="text-[#409845]">cacilds vidis litro abertis.</span>
             </h1>
-            <h4 className="text-3xl">
+            <h4 className="text-3xl text-gt-main-green-900 opacity-75">
               Interagi no mé, cursus quis, vehicula ac nisi.
             </h4>
             <a href="/signup">
