@@ -33,17 +33,15 @@ function Landing() {
               Mussum Ipsum, <br />
               <span className="text-[#409845]">cacilds vidis litro abertis.</span>
             </h1>
-            <h4 className="text-3xl text-gt-main-green-900 opacity-75 animate__animated animate__fadeIn">
+            <h4 className="text-3xl text-gray-500 animate__animated animate__fadeIn">
               Interagi no mé, cursus quis, vehicula ac nisi.
             </h4>
-            {/* <a href="#second-section"> */}
               <button className="animate__animated animate__fadeIn w-8/12 flex items-center justify-center gap-3 mt-7 h-16 border-solid border-3 border-gt-main-green-400 rounded-full transition-all duration-300 ease-in-out cursor-pointer bg-gt-main-green-600 text-white text-xl font-semibold font-montserrat hover:bg-gt-main-green-700 hover:text-white hover:text-2xl"
                 onClick={scrollToSection}
               >
                 <img src={ArrowDown} className="h-6 w-6 hover:h-7 hover:w-7" />
                 Explorar Conteúdo
               </button>
-            {/* </a> */}
           </div>
           <div className="flex items-center justify-center h-full animate__animated animate__zoomIn">
             <img src={UndrawNature} alt="nature illustration" className="w-8/12" />
