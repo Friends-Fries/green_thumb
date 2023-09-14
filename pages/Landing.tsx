@@ -6,6 +6,7 @@ import Navbar from "../src/components/Navbar";
 
 // Images
 import UndrawNature from "../src/assets/undraw_nature.svg";
+import ArrowDown from "../src/assets/arrow-down.svg";
 
 // Animations
 import "animate.css";
@@ -36,10 +37,11 @@ function Landing() {
               Interagi no mé, cursus quis, vehicula ac nisi.
             </h4>
             {/* <a href="#second-section"> */}
-              <button className="animate__animated animate__fadeIn w-8/12 mt-7 h-16 border-solid border-3 border-gt-main-green-400 rounded-full transition-all duration-300 ease-in-out cursor-pointer bg-gt-main-green-600 text-white text-xl font-semibold font-montserrat hover:bg-gt-main-green-700 hover:text-white hover:text-2xl"
+              <button className="animate__animated animate__fadeIn w-8/12 flex items-center justify-center gap-3 mt-7 h-16 border-solid border-3 border-gt-main-green-400 rounded-full transition-all duration-300 ease-in-out cursor-pointer bg-gt-main-green-600 text-white text-xl font-semibold font-montserrat hover:bg-gt-main-green-700 hover:text-white hover:text-2xl"
                 onClick={scrollToSection}
               >
-                Criar Conta
+                <img src={ArrowDown} className="h-6 w-6 hover:h-7 hover:w-7" />
+                Explorar Conteúdo
               </button>
             {/* </a> */}
           </div>
