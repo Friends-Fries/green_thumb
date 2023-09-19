@@ -49,7 +49,17 @@ function Landing() {
         </div>
       </section>
       <section id="second-section" className="h-screen bg-gt-main-green-50">
+        <div className="grid grid-cols-3 gap-40 h-full items-center px-20">
+          <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
 
+          </div>
+          <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
+
+          </div>
+          <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
+
+          </div>
+        </div>
       </section>
       <section id="third-section" className="h-screen bg-gray-50">
 
