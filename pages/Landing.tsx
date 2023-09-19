@@ -44,7 +44,7 @@ function Landing() {
               </button>
           </div>
           <div className="flex items-center justify-center h-full animate__animated animate__zoomIn">
-            <img src={UndrawNature} alt="nature illustration" className="w-8/12" />
+            <img src={UndrawNature} alt="nature illustration" className="w-7/12" />
           </div>
         </div>
       </section>
