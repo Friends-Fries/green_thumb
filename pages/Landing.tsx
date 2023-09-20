@@ -6,6 +6,7 @@ import Navbar from "../src/components/Navbar";
 
 // Images
 import UndrawNature from "../src/assets/undraw_nature.svg";
+import UndrawPlant from "../src/assets/undraw_environment.svg";
 import ArrowDown from "../src/assets/arrow-down.svg";
 
 // Animations
@@ -51,7 +52,13 @@ function Landing() {
       <section id="second-section" className="h-screen bg-gt-main-green-50">
         <div className="grid grid-cols-3 gap-40 h-full items-center px-20">
           <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
-
+            <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-6xl p-5">
+              Green Thumb
+            </h2>
+            <div className="flex align-center justify-center py-5">
+              <img src={UndrawPlant} alt="plant" className="w-7/12" />
+            </div>
+            <h4>Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</h4>
           </div>
           <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
 
