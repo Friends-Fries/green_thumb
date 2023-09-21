@@ -5,9 +5,11 @@ import React from "react";
 import Navbar from "../src/components/Navbar";
 
 // Images
+import ArrowDown from "../src/assets/arrow-down.svg";
 import UndrawNature from "../src/assets/undraw_nature.svg";
 import UndrawPlant from "../src/assets/undraw_environment.svg";
-import ArrowDown from "../src/assets/arrow-down.svg";
+import UndrawFarm from "../src/assets/undraw_farm.svg";
+import UndrawWorld from "../src/assets/undraw_world.svg";
 
 // Animations
 import "animate.css";
@@ -67,7 +69,7 @@ function Landing() {
               Green Thumb
             </h2>
             <div className="flex align-center justify-center py-5">
-              <img src={UndrawPlant} alt="plant" className="w-7/12" />
+              <img src={UndrawFarm} alt="plant" className="w-7/12" />
             </div>
             <hr
               className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
@@ -78,7 +80,7 @@ function Landing() {
               Green Thumb
             </h2>
             <div className="flex align-center justify-center py-5">
-              <img src={UndrawPlant} alt="plant" className="w-7/12" />
+              <img src={UndrawWorld} alt="plant" className="w-7/12" />
             </div>
             <hr
               className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
