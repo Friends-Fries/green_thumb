@@ -51,20 +51,38 @@ function Landing() {
       </section>
       <section id="second-section" className="h-screen bg-gt-main-green-50">
         <div className="grid grid-cols-3 gap-40 h-full items-center px-20">
-          <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
+          <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
             <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-6xl p-5">
               Green Thumb
             </h2>
             <div className="flex align-center justify-center py-5">
               <img src={UndrawPlant} alt="plant" className="w-7/12" />
             </div>
-            <h4>Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</h4>
+            <hr
+              className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
+            <h4 className="text-gt-main-green-800 text-center p-5 font-semibold">Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</h4>
           </div>
-          <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
-
+          <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
+          <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-6xl p-5">
+              Green Thumb
+            </h2>
+            <div className="flex align-center justify-center py-5">
+              <img src={UndrawPlant} alt="plant" className="w-7/12" />
+            </div>
+            <hr
+              className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
+            <h4 className="text-gt-main-green-800 text-center p-5 font-semibold">Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</h4>
           </div>
-          <div className="rounded-md bg-white shadow-lg h-4/5 w-full">
-
+          <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
+          <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-6xl p-5">
+              Green Thumb
+            </h2>
+            <div className="flex align-center justify-center py-5">
+              <img src={UndrawPlant} alt="plant" className="w-7/12" />
+            </div>
+            <hr
+              className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
+            <h4 className="text-gt-main-green-800 text-center p-5 font-semibold">Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</h4>
           </div>
         </div>
       </section>
