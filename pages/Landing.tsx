@@ -31,22 +31,22 @@ function Landing() {
     <>
       <Navbar />
       <section id="first-section" className="h-[90vh] bg-gray-50">
-        <div className="grid grid-cols-2 gap-40 h-full items-center">
-          <div className="w-12/12 h-full flex flex-col gap-5 p-28">
-            <h1 className="text-8xl text-[#86C43F] font-gabriela animate__animated animate__fadeIn">
+        <div className="grid grid-cols-2 lg:gap-36 xl:gap-40 xl:h-full items-center">
+          <div className="w-full h-full flex flex-col gap-5 xl:p-20">
+            <h1 className="md:text-5xl lg:text-6xl xl:text-7xl text-[#86C43F] font-gabriela animate__animated animate__fadeIn">
               Mussum Ipsum, <br />
               <span className="text-[#409845]">
                 cacilds vidis litro abertis.
               </span>
             </h1>
-            <h4 className="text-3xl text-gray-500 animate__animated animate__fadeIn">
+            <h4 className="md:text-xl lg:text-2xl xl:text-3xl text-gray-500 animate__animated animate__fadeIn">
               Interagi no mé, cursus quis, vehicula ac nisi.
             </h4>
             <button
               className="animate__animated animate__fadeIn w-8/12 flex items-center justify-center gap-3 mt-7 h-16 border-solid border-3 border-gt-main-green-400 rounded-full transition-all duration-300 ease-in-out cursor-pointer bg-gt-main-green-600 text-white text-xl font-semibold font-montserrat hover:bg-gt-main-green-700 hover:text-white hover:text-2xl"
               onClick={scrollToSection}
             >
-              <img src={ArrowDown} className="h-6 w-6 hover:h-7 hover:w-7" />
+              <img src={ArrowDown} className="md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 lg:hover:h-6 lg:hover:w-6 xl:hover:h-7 xl:hover:w-7" />
               Explorar Conteúdo
             </button>
           </div>
@@ -173,7 +173,7 @@ function Landing() {
             </div>
           </nav>
           <div className="flex justify-center mt-8 space-x-6">
-            <a href="#" className="text-gray-400 hover:text-gt-main-green-50">
+            <a href="#" className="text-white hover:text-gt-main-green-50">
               <span className="sr-only">Facebook</span>
               <svg
                 className="w-6 h-6"
@@ -188,7 +188,7 @@ function Landing() {
                 ></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gt-main-green-50">
+            <a href="#" className="text-white hover:text-gt-main-green-50">
               <span className="sr-only">Instagram</span>
               <svg
                 className="w-6 h-6"
@@ -203,7 +203,7 @@ function Landing() {
                 ></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gt-main-green-50">
+            <a href="#" className="text-white hover:text-gt-main-green-50">
               <span className="sr-only">Twitter</span>
               <svg
                 className="w-6 h-6"
@@ -214,7 +214,7 @@ function Landing() {
                 <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gt-main-green-50">
+            <a href="#" className="text-white hover:text-gt-main-green-50">
               <span className="sr-only">GitHub</span>
               <svg
                 className="w-6 h-6"
@@ -229,7 +229,7 @@ function Landing() {
                 ></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gt-main-green-50">
+            <a href="#" className="text-white hover:text-gt-main-green-50">
               <span className="sr-only">Dribbble</span>
               <svg
                 className="w-6 h-6"
