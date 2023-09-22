@@ -10,6 +10,8 @@ import UndrawNature from "../src/assets/undraw_nature.svg";
 import UndrawPlant from "../src/assets/undraw_environment.svg";
 import UndrawFarm from "../src/assets/undraw_farm.svg";
 import UndrawWorld from "../src/assets/undraw_world.svg";
+import Farm from "../src/assets/farm.jpg";
+import Grass from "../src/assets/grass.svg";
 
 // Animations
 import "animate.css";
@@ -103,9 +105,21 @@ function Landing() {
           </div>
         </div>
       </section>
-      <section id="third-section" className="h-screen bg-gray-50">
-
+      <section
+        id="third-section"
+        className="h-screen bg-gray-50 flex justify-center"
+      >
+        <a href="/signup" className="flex justify-center">
+          <img
+            src={Farm}
+            className=" cursor-pointer transition-all duration-300 ease-in-out shadow-lg h-[46em] hover:h-[48em] hover:shadow-xl flex self-center rounded-xl"
+          />
+        </a>
       </section>
+      <div className="bg-gray-50">
+        <img src={Grass} className="h-2/6" />
+      </div>
+      {/* Footer */}
       <section className="bg-gt-main-green-800">
         <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
           <nav className="flex flex-wrap justify-center -mx-5 -my-2">
