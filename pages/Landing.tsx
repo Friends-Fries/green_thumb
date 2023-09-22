@@ -31,23 +31,23 @@ function Landing() {
     <>
       <Navbar />
       <section id="first-section" className="h-[90vh] bg-gray-50">
-        <div className="grid grid-cols-2 lg:gap-36 xl:gap-40 xl:h-full items-center">
+        <div className="grid grid-cols-2 lg:gap-36 lg:h-full xl:gap-40 xl:h-full items-center">
           <div className="w-full h-full flex flex-col gap-5 xl:p-20">
             <h1 className="md:text-5xl lg:text-6xl xl:text-7xl text-[#86C43F] font-gabriela animate__animated animate__fadeIn">
-              Mussum Ipsum, <br />
+              A sua colheita, <br />
               <span className="text-[#409845]">
-                cacilds vidis litro abertis.
+                na palma de sua mão.
               </span>
             </h1>
-            <h4 className="md:text-xl lg:text-2xl xl:text-3xl text-gray-500 animate__animated animate__fadeIn">
-              Interagi no mé, cursus quis, vehicula ac nisi.
+            <h4 className="md:text-lg lg:text-xl xl:text-2xl text-gray-500 animate__animated animate__fadeIn">
+              Organize suas hortas de maneira prática e eficiente.
             </h4>
             <button
               className="animate__animated animate__fadeIn w-8/12 flex items-center justify-center gap-3 mt-7 h-16 border-solid border-3 border-gt-main-green-400 rounded-full transition-all duration-300 ease-in-out cursor-pointer bg-gt-main-green-600 text-white text-xl font-semibold font-montserrat hover:bg-gt-main-green-700 hover:text-white hover:text-2xl"
               onClick={scrollToSection}
             >
               <img src={ArrowDown} className="md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 lg:hover:h-6 lg:hover:w-6 xl:hover:h-7 xl:hover:w-7" />
-              Explorar Conteúdo
+              Saber Mais
             </button>
           </div>
           <div className="flex items-center justify-center h-full animate__animated animate__zoomIn">
