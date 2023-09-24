@@ -11,7 +11,7 @@ import UndrawPlant from "../src/assets/undraw_environment.svg";
 import UndrawFarm from "../src/assets/undraw_farm.svg";
 import UndrawWorld from "../src/assets/undraw_world.svg";
 import Farm from "../src/assets/farm.jpg";
-import Grass from "../src/assets/grass-transparent.png";
+import Grass from "../src/assets/grass.png";
 
 // Animations
 import "animate.css";
