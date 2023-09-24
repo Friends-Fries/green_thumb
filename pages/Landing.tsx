@@ -11,7 +11,7 @@ import UndrawPlant from "../src/assets/undraw_environment.svg";
 import UndrawFarm from "../src/assets/undraw_farm.svg";
 import UndrawWorld from "../src/assets/undraw_world.svg";
 import Farm from "../src/assets/farm.jpg";
-import Grass from "../src/assets/grass.svg";
+import Grass from "../src/assets/grass-transparent.png";
 
 // Animations
 import "animate.css";
@@ -68,7 +68,7 @@ function Landing() {
             <div className="flex align-center justify-center py-5">
               <img src={UndrawPlant} alt="plant" className="w-7/12" />
             </div>
-            <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
+            <hr className="my-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
             <h4 className="text-gt-main-green-800 text-center p-5 font-semibold">
               Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent
               taciti sociosqu ad litora torquent. Mais vale um bebadis
@@ -82,7 +82,7 @@ function Landing() {
             <div className="flex align-center justify-center py-5">
               <img src={UndrawFarm} alt="plant" className="w-7/12" />
             </div>
-            <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
+            <hr className="my-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
             <h4 className="text-gt-main-green-800 text-center p-5 font-semibold">
               Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent
               taciti sociosqu ad litora torquent. Mais vale um bebadis
@@ -96,7 +96,7 @@ function Landing() {
             <div className="flex align-center justify-center py-5">
               <img src={UndrawWorld} alt="plant" className="w-7/12" />
             </div>
-            <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
+            <hr className="my-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-gt-main-green-800 to-transparent opacity-25 dark:opacity-100" />
             <h4 className="text-gt-main-green-800 text-center p-5 font-semibold">
               Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent
               taciti sociosqu ad litora torquent. Mais vale um bebadis
@@ -112,12 +112,12 @@ function Landing() {
         <a href="/signup" className="flex justify-center">
           <img
             src={Farm}
-            className=" cursor-pointer transition-all duration-300 ease-in-out shadow-lg h-[46em] hover:h-[48em] hover:shadow-xl flex self-center rounded-xl"
+            className=" cursor-pointer transition-all duration-300 ease-in-out shadow-lg xl:h-[40em] xl:hover:h-[42em] hover:shadow-xl flex self-center rounded-xl"
           />
         </a>
       </section>
       <div className="bg-gray-50">
-        <img src={Grass} className="h-2/6" />
+        <img src={Grass} className="h-1/6 w-full" />
       </div>
       {/* Footer */}
       <section className="bg-gt-main-green-800">
