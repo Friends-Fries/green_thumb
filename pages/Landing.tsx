@@ -59,9 +59,9 @@ function Landing() {
           </div>
         </div>
       </section>
-      <section id="second-section" className="h-screen bg-gt-main-green-50">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-40 h-full items-center px-20">
-          <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
+      <section id="second-section" className="md:h-screen bg-gt-main-green-50 py-7">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-40 h-full items-center px-20">
+          <div className="rounded-md bg-white shadow-lg md:h-3/5 w-full">
             <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-2xl md:text-4xl lg:text-6xl p-5">
               Green Thumb
             </h2>
@@ -75,7 +75,7 @@ function Landing() {
               conhecidiss, que um alcoolatra anonimis.
             </h4>
           </div>
-          <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
+          <div className="rounded-md bg-white shadow-lg md:h-3/5 w-full">
             <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-2xl md:text-4xl lg:text-6xl p-5">
               Green Thumb
             </h2>
@@ -89,7 +89,7 @@ function Landing() {
               conhecidiss, que um alcoolatra anonimis.
             </h4>
           </div>
-          <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
+          <div className="rounded-md bg-white shadow-lg md:h-3/5 w-full">
             <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-2xl md:text-4xl lg:text-6xl p-5">
               Green Thumb
             </h2>
