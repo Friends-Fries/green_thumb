@@ -31,19 +31,19 @@ function Landing() {
     <>
       <Navbar />
       <section id="first-section" className="h-[90vh] bg-gray-50">
-        <div className="md:grid md:grid-cols-2 lg:gap-36 lg:h-full xl:gap-40 xl:h-full items-center lg:px-16 xl:px-20">
-          <div className="w-full h-full flex flex-col gap-5 justify-center">
-            <h1 className="md:text-5xl lg:text-6xl xl:text-7xl text-[#86C43F] font-gabriela animate__animated animate__fadeIn">
+        <div className="grid grid-cols-1 md:grid md:grid-cols-2 gap-0 md:gap-30 lg:gap-36 h-full xl:gap-40 items-center md:px-12 lg:px-16 xl:px-20">
+          <div className="w-full h-full flex flex-col gap-5 justify-center items-center md:items-start">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#86C43F] font-gabriela animate__animated animate__fadeIn">
               A sua colheita, <br />
               <span className="text-[#409845]">
                 na palma de sua mão.
               </span>
             </h1>
-            <h4 className="md:text-lg lg:text-xl xl:text-2xl text-gray-500 animate__animated animate__fadeIn">
+            <h4 className="text-md md:text-lg lg:text-xl xl:text-2xl text-gray-500 animate__animated animate__fadeIn">
               Organize suas hortas de maneira prática e eficiente.
             </h4>
             <button
-              className="animate__animated animate__fadeIn w-8/12 flex items-center justify-center gap-3 mt-7 h-16 border-solid border-3 border-gt-main-green-400 rounded-full transition-all duration-300 ease-in-out cursor-pointer bg-gt-main-green-600 text-white text-xl font-semibold font-montserrat hover:bg-gt-main-green-700 hover:text-white hover:text-2xl"
+              className="animate__animated animate__fadeIn w-6/12 md:w-8/12 flex items-center justify-center gap-3 mt-7 h-16 border-solid border-3 border-gt-main-green-400 rounded-full transition-all duration-300 ease-in-out cursor-pointer bg-gt-main-green-600 text-white text-xl font-semibold font-montserrat hover:bg-gt-main-green-700 hover:text-white hover:text-2xl"
               onClick={scrollToSection}
             >
               <img src={ArrowDown} className="md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 lg:hover:h-6 lg:hover:w-6 xl:hover:h-7 xl:hover:w-7" />
@@ -60,9 +60,9 @@ function Landing() {
         </div>
       </section>
       <section id="second-section" className="h-screen bg-gt-main-green-50">
-        <div className="grid grid-cols-3 gap-40 h-full items-center px-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-40 h-full items-center px-20">
           <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
-            <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-6xl p-5">
+            <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-2xl md:text-4xl lg:text-6xl p-5">
               Green Thumb
             </h2>
             <div className="flex align-center justify-center py-5">
@@ -76,7 +76,7 @@ function Landing() {
             </h4>
           </div>
           <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
-            <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-6xl p-5">
+            <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-2xl md:text-4xl lg:text-6xl p-5">
               Green Thumb
             </h2>
             <div className="flex align-center justify-center py-5">
@@ -90,7 +90,7 @@ function Landing() {
             </h4>
           </div>
           <div className="rounded-md bg-white shadow-lg h-3/5 w-full">
-            <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-6xl p-5">
+            <h2 className="text-gt-main-green-800 font-bold font-gabriela text-center text-2xl md:text-4xl lg:text-6xl p-5">
               Green Thumb
             </h2>
             <div className="flex align-center justify-center py-5">
