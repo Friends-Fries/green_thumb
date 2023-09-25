@@ -11,6 +11,7 @@ import UndrawPlant from "../src/assets/undraw_environment.svg";
 import UndrawFarm from "../src/assets/undraw_farm.svg";
 import UndrawWorld from "../src/assets/undraw_world.svg";
 import Farm from "../src/assets/farm.jpg";
+import FarmSM from "../src/assets/Farm-SM.jpg";
 import Grass from "../src/assets/grass.png";
 
 // Animations
@@ -112,7 +113,11 @@ function Landing() {
         <a href="/signup" className="flex justify-center">
           <img
             src={Farm}
-            className=" cursor-pointer transition-all duration-300 ease-in-out shadow-lg xl:h-[40em] xl:hover:h-[42em] hover:shadow-xl flex self-center rounded-xl"
+            className=" hidden sm:flex cursor-pointer transition-all duration-300 ease-in-out shadow-lg sm:h-[25em] sm:hover:h-[28em] md:h-[32em] md:hover:h-[35em] lg:h-[35em] lg:hover:h-[38em] xl:h-[40em] xl:hover:h-[42em] hover:shadow-xl self-center rounded-xl"
+          />
+          <img
+            src={FarmSM}
+            className="sm:hidden flex h-[35em] self-center items-center rounded-lg shadow-lg"
           />
         </a>
       </section>
