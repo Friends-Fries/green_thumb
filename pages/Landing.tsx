@@ -31,8 +31,8 @@ function Landing() {
     <>
       <Navbar />
       <section id="first-section" className="h-[90vh] bg-gray-50">
-        <div className="grid grid-cols-2 lg:gap-36 lg:h-full xl:gap-40 xl:h-full items-center">
-          <div className="w-full h-full flex flex-col gap-5 xl:p-20">
+        <div className="md:grid md:grid-cols-2 lg:gap-36 lg:h-full xl:gap-40 xl:h-full items-center lg:px-16 xl:px-20">
+          <div className="w-full h-full flex flex-col gap-5 justify-center">
             <h1 className="md:text-5xl lg:text-6xl xl:text-7xl text-[#86C43F] font-gabriela animate__animated animate__fadeIn">
               A sua colheita, <br />
               <span className="text-[#409845]">
