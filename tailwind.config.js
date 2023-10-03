@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './pages/**/*.tsx',
-    './components/**/*.tsx',
+    './src/components/**/*.tsx',
   ],
   theme: {
     fontSize: {
@@ -21,6 +21,10 @@ module.exports = {
       "8xl": "4rem",
       "9xl": "6rem",
       "10xl": "8rem",
+    },
+
+    fontFamily: {
+      'gabriela': ['Gabriela', 'serif'],
     },
 
     flex: {
